@@ -1,5 +1,6 @@
-# Codecademy-Data-Scientist
+# Codecademy-Data-Scientist-Analytics
 This repository contains projects from my Data Scientist: Analytics Professional Certification course on Codecademy. It showcases work in data visualization, statistical analysis, and machine learning, highlighting key skills gained throughout the course. Explore the projects to see my progress in data science!
+
 
 Data Science Foundations [1]:
 ============================
@@ -53,8 +54,12 @@ Data Science Foundations [2]:
 3. Page Visits Funnel - COMPLETED ✅
 4. This is Jeopardy (Challenge Project) - COMPLETED ✅
 
-☑️**Variable Types for Data Science:** **(In Progress 🔥)**
+☑️**Exploratory Data Analysis in Python:** **(In Progress 🔥)**
 
 1. Census Variables - COMPLETED ✅
 2. EDA: Diagnosing Diabetes - COMPLETED ✅
-3. Exploring Student Data - Yet to start ⏳
+3. Exploring Student Data - COMPLETED ✅
+4. NBA Trends - Yet to start ⏳
+
+
+
