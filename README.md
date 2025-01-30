@@ -62,7 +62,8 @@ Data Science Foundations [2]:
 
 ☑️**Probability For Data Science:** **(In Progress 🔥)**
 
-1. Detecting Product Defects with Probabilty - Yet to start ⏳
+1. Detecting Product Defects with Probabilty - COMPLETED ✅
+2. Sampling Distributions Dancing Party! - Yet to start ⏳
 
 
 
