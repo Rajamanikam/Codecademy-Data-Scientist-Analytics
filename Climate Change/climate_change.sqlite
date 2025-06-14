@@ -1,0 +1,145 @@
+-- 1. To see what our table contains
+
+SELECT * 
+FROM state_climate;
+
+
+-- 2. how the average temperature changes over time in each state.
+
+SELECT
+    state,
+    year,
+    tempf,
+    AVG(tempf) OVER (
+        PARTITION BY state
+        ORDER BY year
+        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+    ) AS running_avg_temp
+FROM
+    state_climate
+ORDER BY
+    state,
+    year;
+
+
+-- 3. explore the lowest temperatures for each state.
+
+SELECT
+    state,
+    year,
+    tempc,
+    FIRST_VALUE(tempc) OVER (
+        PARTITION BY state
+        ORDER BY tempc ASC
+    ) AS lowest_temp
+FROM
+    state_climate
+ORDER BY
+    state,
+    tempc ASC;
+
+
+
+-- 4. highest recorded temps for each state => more recent since temperatures are rising
+
+SELECT
+    state,
+    year,
+    tempc,
+    FIRST_VALUE(tempc) OVER (
+        PARTITION BY state
+        ORDER BY tempc DESC
+    ) AS highest_temp
+FROM
+    state_climate
+ORDER BY
+    state,
+    tempc DESC;
+
+
+-- 5. To see how temperature has changed each year in each state.
+
+WITH temp_change AS (
+    SELECT
+        state,
+        year,
+        tempf,
+        tempf - LAG(tempf) OVER (PARTITION BY state ORDER BY year) AS change_in_temp
+    FROM
+        state_climate
+)
+SELECT *
+FROM temp_change
+WHERE change_in_temp IS NOT NULL
+ORDER BY ABS(change_in_temp) DESC
+LIMIT 10;
+
+
+-- 6 . Rank of the coldest temperatures on record
+
+SELECT
+    state,
+    year,
+    tempf,
+    RANK() OVER (ORDER BY tempf ASC) AS coldest_rank
+FROM
+    state_climate
+ORDER BY
+    coldest_rank ASC;
+
+
+-- 7. Rank of the warmest temperatures on record
+
+SELECT
+    state,
+    year,
+    tempf,
+    RANK() OVER (
+        PARTITION BY state
+        ORDER BY tempf DESC
+    ) AS warmest_rank
+FROM
+    state_climate
+ORDER BY
+    state,
+    warmest_rank;
+
+
+
+-- 8. To return the average yearly temperatures in quartiles instead of in rankings for each state.
+
+
+SELECT
+    NTILE(4) OVER (
+        PARTITION BY state
+        ORDER BY AVG(tempf) ASC
+    ) AS quartile,
+    state,
+    year,
+    AVG(tempf) AS avg_yearly_temp
+FROM
+    state_climate
+GROUP BY
+    state,
+    year
+ORDER BY
+    quartile, state, year;
+
+
+-- 9. To return the average yearly temperatures in quintiles (5)
+
+SELECT
+    NTILE(5) OVER (
+        ORDER BY AVG(tempf) ASC
+    ) AS quintile,
+    year,
+    state,
+    AVG(tempf) AS avg_yearly_temp
+FROM
+    state_climate
+GROUP BY
+    state, year
+ORDER BY
+    quintile, year, state;
+
+
