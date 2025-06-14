@@ -63,7 +63,18 @@ Data Science Foundations [2]:
 ☑️**Probability For Data Science:** **(In Progress 🔥)**
 
 1. Detecting Product Defects with Probabilty - COMPLETED ✅
-2. Sampling Distributions Dancing Party! - Yet to start ⏳
+2. Sampling Distributions Dancing Party! - COMPLETED ✅
+3. Heart Disease Research Part 1 - Yet to Start⏳
 
+
+
+
+Advanced Databases [4]:
+========================
+
+**☑️Advanced SQL for Data Science: (In Progress 🔥)**
+
+1. Climate Change Analysis - COMPLETED ✅
+2. Analyze Twitch Gaming Data - Yet to Start⏳
 
 
