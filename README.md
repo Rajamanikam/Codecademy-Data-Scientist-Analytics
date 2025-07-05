@@ -68,13 +68,44 @@ Data Science Foundations [2]:
 
 
 
+Statistics For Data Scientists [3]:
+===================================
+
+☑️**Variance and Standard Deviation:**
+
+1. Variance in Weather - COMPLETED ✅
+
+
+☑️**Distributions:**
+
+1. Traveling to Acadia - COMPLETED ✅
+2. Describe Exam Grade Distributions - COMPLETED ✅
+
+
+☑️**Quartiles, Quantiles, and the Inter-quartile range:**
+
+1. Life Expectancy by Country - COMPLETED ✅
+2. Healthcare in Different States - COMPLETED ✅
+
+
+☑️**Summary Statistics for Categorical Data:** **(In Progress 🔥)**
+
+1. Summarizing Automobile Evaluation Data - Yet to Start⏳
+
+
+☑️**Data Transformation:** **(In Progress 🔥)**
+
+1. Startup Transformation - Yet to Start⏳
+
+
 
 Advanced Databases [4]:
 ========================
 
-**☑️Advanced SQL for Data Science: (In Progress 🔥)**
+**☑️Advanced SQL for Data Science:**
 
 1. Climate Change Analysis - COMPLETED ✅
-2. Analyze Twitch Gaming Data - Yet to Start⏳
+2. Analyze Twitch Gaming Data - COMPLETED ✅
+3. Visualize Twitch Gaming Data - COMPLETED ✅
 
 
