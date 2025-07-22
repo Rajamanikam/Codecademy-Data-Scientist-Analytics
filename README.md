@@ -67,6 +67,13 @@ Data Science Foundations [2]:
 3. Heart Disease Research Part 1 - Yet to Start⏳
 
 
+**☑️Data Visualization Fundamentals with Python:**
+
+1. Sublimes Lime's Line Graphs - COMPLETED ✅
+2. Exploring Mushrooms - COMPLETED ✅
+3. Airline Analysis - COMPLETED ✅
+
+
 
 Statistics For Data Scientists [3]:
 ===================================
