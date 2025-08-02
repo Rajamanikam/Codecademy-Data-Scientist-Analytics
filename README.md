@@ -95,14 +95,14 @@ Statistics For Data Scientists [3]:
 2. Healthcare in Different States - COMPLETED ✅
 
 
-☑️**Summary Statistics for Categorical Data:** **(In Progress 🔥)**
+☑️**Summary Statistics for Categorical Data:**
 
-1. Summarizing Automobile Evaluation Data - Yet to Start⏳
+1. Summarizing Automobile Evaluation Data - COMPLETED ✅
 
 
-☑️**Data Transformation:** **(In Progress 🔥)**
+☑️**Data Transformation:**
 
-1. Startup Transformation - Yet to Start⏳
+1. Startup Transformation - COMPLETED ✅
 
 
 
