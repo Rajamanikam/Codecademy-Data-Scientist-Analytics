@@ -105,6 +105,12 @@ Statistics For Data Scientists [3]:
 1. Startup Transformation - COMPLETED ✅
 
 
+**☑️Visualization for Data Science Applications:**
+
+1. Constellations - COMPLETED ✅
+2. Board Slides for Food Wheel - COMPLETED ✅
+3. Roller Coaster - COMPLETED ✅
+   
 
 Advanced Databases [4]:
 ========================
