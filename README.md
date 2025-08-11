@@ -60,11 +60,22 @@ Data Science Foundations [2]:
 3. Exploring Student Data - COMPLETED ✅
 4. NBA Trends - COMPLETED ✅
 
-☑️**Probability For Data Science:** **(In Progress 🔥)**
+☑️**Probability For Data Science:**
 
 1. Detecting Product Defects with Probabilty - COMPLETED ✅
-2. Sampling Distributions Dancing Party! - COMPLETED ✅
-3. Heart Disease Research Part 1 - Yet to Start⏳
+
+☑️**Sampling For Data Science:**
+
+1. Sampling Distributions Dancing Party! - COMPLETED ✅
+
+☑️**Hypothesis Testing For Data Science:**
+
+1. Heart Disease Research Part 1 - COMPLETED ✅
+
+☑️**Simple Linear Regression For Data Science:** **(in Progress 🔥)**
+
+1. Linear Regression at Codecademy - Yet to Start ⏳
+   
 
 
 **☑️Data Visualization Fundamentals with Python:**
@@ -74,9 +85,15 @@ Data Science Foundations [2]:
 3. Airline Analysis - COMPLETED ✅
 
 
+🚀**Portfolio Projects:** **(in Progress 🔥)**
 
-Statistics For Data Scientists [3]:
-===================================
+1. Life Expectancy and GDP Analysis - COMPLETED ✅
+2. Biodiversity in National Parks - Yet to Start ⏳
+   
+
+
+Statistics Fundamentals For Data Scientists [3]:
+=================================================
 
 ☑️**Variance and Standard Deviation:**
 
@@ -110,6 +127,7 @@ Statistics For Data Scientists [3]:
 1. Constellations - COMPLETED ✅
 2. Board Slides for Food Wheel - COMPLETED ✅
 3. Roller Coaster - COMPLETED ✅
+
    
 
 Advanced Databases [4]:
