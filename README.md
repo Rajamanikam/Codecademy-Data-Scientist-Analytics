@@ -85,10 +85,10 @@ Data Science Foundations [2]:
 3. Airline Analysis - COMPLETED ✅
 
 
-🚀**Portfolio Projects:** **(in Progress 🔥)**
+🚀**Portfolio Projects:**
 
 1. Life Expectancy and GDP Analysis - COMPLETED ✅
-2. Biodiversity in National Parks - Yet to Start ⏳
+2. Biodiversity in National Parks - COMPLETED ✅
    
 
 
