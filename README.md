@@ -72,9 +72,9 @@ Data Science Foundations [2]:
 
 1. Heart Disease Research Part 1 - COMPLETED ✅
 
-☑️**Simple Linear Regression For Data Science:** **(in Progress 🔥)**
+☑️**Simple Linear Regression For Data Science:**
 
-1. Linear Regression at Codecademy - Yet to Start ⏳
+1. Linear Regression at Codecademy - COMPLETED ✅
    
 
 
