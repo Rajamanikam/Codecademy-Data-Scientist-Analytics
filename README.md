@@ -75,7 +75,11 @@ Data Science Foundations [2]:
 ☑️**Simple Linear Regression For Data Science:**
 
 1. Linear Regression at Codecademy - COMPLETED ✅
-   
+
+
+☑️**Data Wrangling, Cleaning, and Tidying:**
+
+1. Cleaning US Census Data - COMPLETED ✅
 
 
 **☑️Data Visualization Fundamentals with Python:**
