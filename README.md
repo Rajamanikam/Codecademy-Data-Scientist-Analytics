@@ -1,4 +1,4 @@
-# Codecademy-Data-Scientist-Analytics
+# Codecademy-Data-Scientist-Analytics [COMPLETED]
 This repository contains projects from my Data Scientist: Analytics Professional Certification course on Codecademy. It showcases work in data visualization, statistical analysis, and machine learning, highlighting key skills gained throughout the course. Explore the projects to see my progress in data science!
 
 
@@ -142,5 +142,26 @@ Advanced Databases [4]:
 1. Climate Change Analysis - COMPLETED ✅
 2. Analyze Twitch Gaming Data - COMPLETED ✅
 3. Visualize Twitch Gaming Data - COMPLETED ✅
+
+
+BI Tools for Data Scientists [5]:
+==================================
+
+**☑️Learn Tableau for Data Visualization:**
+
+1. NYC Tree Census and Income: Data Setup - COMPLETED ✅
+
+
+**☑️Learn Microsoft Excel for Data Analysis:**
+
+1. Explore GDP in Excel - COMPLETED ✅
+2. Visualizing Hotel Data in Excel - COMPLETED ✅
+3. Handling Hotel Data in Excel - COMPLETED ✅
+4. **[CAPSTONE PROJECT]** Analyze Bitcoin Data in Excel - COMPLETED ✅
+
+
+
+
+
 
 
